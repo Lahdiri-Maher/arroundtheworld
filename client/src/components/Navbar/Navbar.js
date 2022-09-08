@@ -8,8 +8,8 @@ import {
 import { useDispatch } from "react-redux";
 import decode from "jwt-decode";
 
-import memoriesLogo from "../../images/memoriesLogo.png";
-import memoriesText from "../../images/memoriesText.png";
+import websiteLogo from "../../images/websiteLogo.png";
+import websiteText from "../../images/websiteText.png";
 import * as actionType from "../../constants/actionTypes";
 import useStyles from "./styles";
 
@@ -48,13 +48,13 @@ const Navbar = () => {
           className={classes.arround}
           component={Link}
           to="/"
-          src={memoriesText}
+          src={websiteText}
           alt="icon"
           height="45px"
         />
         <img
           className={classes.image}
-          src={memoriesLogo}
+          src={websiteLogo}
           alt="icon"
           height="40px"
         />
